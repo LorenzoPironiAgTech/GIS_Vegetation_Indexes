@@ -4,14 +4,14 @@ A geospatial computing and remote sensing repository focused on processing multi
 
 This toolkit demonstrates how to couple Python spatial libraries (`rasterio`, `numpy`) with environmental domain expertise to automate crop health metrics, pixel-level surface classifications, and flight data analytics.
 
-## 🛠️ Tech Stack & Spatial Libraries
+## Tech Stack & Spatial Libraries
 * **Python 3**
 * **Rasterio** (Geospatial raster I/O, Coordinate Reference Systems management, and metadata extraction)
 * **NumPy** (Array masking, vectorization, and statistical operations on pixel matrices)
 * **Matplotlib** (Automated spatial layout rendering and grid generation)
 * **QGIS** (Visual verification and map design)
 
-## 🚀 Key Engineering & Analytics Features
+## Key Engineering & Analytics Features
 
 ### 1. UAV / Drone Photogrammetry Processing & Inspection
 * **NGRDI Index Extraction:** Processes high-resolution orthomosaics generated via "home-grown" drone surveys using a **DJI Mini 4K**. Calculates the *Normalized Green Red Difference Index* (NGRDI) to assess canopy coverage using RGB spectral bands.
